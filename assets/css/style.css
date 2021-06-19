@@ -198,7 +198,7 @@ a:active {
     /* padding-top: 50%; */
     /* padding = 50% (=1:2) chiều ngang của thẻ cha chứa nó */
     /* kĩ thuật để backgr image luôn giữ đúng ratio */
-    background: url('/euro2020/assets/img/slider/euro1.png') top center / cover no-repeat;
+    background: url('../img/slider/euro1.png') top center / cover no-repeat;
     background-color: #cea;
 }
 
@@ -263,7 +263,7 @@ a:active {
 /*? "About" section */
 
 #content .about-section {
-    background-image: url("/euro2020/assets/img/background/europattern2.jpg");
+    background-image: url('../img/background/europattern2.jpg');
     background-size: 300%;
 
 }
@@ -294,7 +294,7 @@ a:active {
 /*? "Venues" section */
 .venues-section {
     /* background-color: #449eb0; */
-    background-image: url("/euro2020/assets/img/background/europattern.jpg");
+    background-image: url('../img/background/europattern.jpg');
     background-size: 300%;
 }
 
@@ -408,7 +408,7 @@ a:active {
 }
 
 .map-section {
-    background-image: url("/euro2020/assets/img/background/europattern2.jpg");
+    background-image: url('../img/background/europattern2.jpg');
 }
 
 #content .content-sub-section { /* section with no heading */
@@ -427,7 +427,7 @@ a:active {
 
 /*? "Draw" section  */
 .draw-section {
-    background-image: url("/euro2020/assets/img/background/europattern.jpg");
+    background-image: url('../img/background/europattern.jpg');
     background-size: 300%;
 }
 
@@ -459,7 +459,7 @@ a:active {
 
 /*? "Contact" section */
 .contact-section {
-    background-image: url("/euro2020/assets/img/background/europattern2.jpg");
+    background-image: url('../img/background/europattern2.jpg');
 }
 
 .contact-content {
@@ -520,7 +520,7 @@ a:active {
 }
 
 .footer-section {
-    background: url("/euro2020/assets/img/footer/footer2.png") top center / cover no-repeat;
+    background: url('../img/footer/footer2.png') top center / cover no-repeat;
     /* background-size: 100%; */
     /* min-height: 321px; */
     max-width: 100%;
