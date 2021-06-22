@@ -96,7 +96,7 @@ a:active {
 
 /*! MAIN */
 #main {
-
+    overflow: hidden;
 }
 
 /*? "HEADER" section */
@@ -142,7 +142,7 @@ a:active {
 
 #nav > li:hover > a {
     color: #000;
-    background-color: #ccc;
+    background-color: #7db8c8;
 }
 
 #nav li:hover .subnav {
@@ -166,16 +166,32 @@ a:active {
 
 #nav .subnav li:hover {
     color: #000;
-    background-color: #ccc;
+    background-color: #7db8c8;
 }
 
 #nav .nav-arrow-down {
     font-size: 12px;
 }
 
-#header .search-btn {
+#header .search-btn,
+#header .mobile-menu-btn {
     float: right;
     padding: 0px 21px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .mobile-menu-btn {
+    display: none;
+}
+
+#header .mobile-menu-btn:hover {
+    background-color: #7db8c8;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
 }
 
 #header .search-btn:hover {
@@ -183,11 +199,13 @@ a:active {
     cursor: pointer;
 }
 
-#header .search-icon {
+#header .search-icon,
+#header .menu-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px;
 }
+
 
 /*? "SLIDER" section */
 
@@ -276,19 +294,21 @@ a:active {
 }
 
 #content .info-general {
-    padding: 45px 0px;
+    padding: 32px 0px;
     /* overflow: hidden; tạo khung - cho ôm hết 3 info-item */
 }
 
 #content .info-description {
+    margin-top: 18px;
+    margin-bottom: 15px;
     font-size: 14pt;
     font-weight: 500;
 }
 
 #content .info-img {
-    margin-top: 15px;
+    margin-bottom: 15px;
     width: 200px;
-    border-radius: 5pt;
+    border-radius: 5px;
 }
 
 /*? "Venues" section */
@@ -338,8 +358,8 @@ a:active {
 
 /*? "Places" (Stadium) section  */
 .place-list {
-    margin-top: 32px;
-    margin-bottom: 8px;
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 .place-item {
@@ -349,8 +369,8 @@ a:active {
 }
 
 .lr {
-    margin-top: 10px;
-    width: 30%; /* 30.5% */
+    padding-top: 7px;
+    width: 30.4%; /* 30.5% */
     height: 100%;
 }
 
@@ -413,6 +433,7 @@ a:active {
 
 #content .content-sub-section { /* section with no heading */
     width: 800px;
+    max-width: 100%;
     padding: 32px 0px;
     /** Căn giữa objects */
     margin-left: auto;
@@ -437,6 +458,11 @@ a:active {
 
 .draw-content .row {
     margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.draw-table {
     margin-bottom: 16px;
 }
 
