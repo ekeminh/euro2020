@@ -29,6 +29,15 @@ li {
     list-style-type: none;
 }
 
+.btn {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+.form-control {
+    -webkit-appearance: none !important;
+}
+
 .text-white {
     color: #fff !important;
 }
@@ -343,6 +352,7 @@ a:active {
 
 /* Số 3 màu đen */
 .stages-list .quantity {
+    display: none;
     float: right;
     width: 24px;
     height: 24px;
